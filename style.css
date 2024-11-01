@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    gap: 10px;
+}
+p{
+    background-color: rgb(195, 178, 210);
+    padding: 20px;
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    section{
+        flex-direction: column;
+    }
+    p{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    p{
+        padding: 30px;
+    }
+}
